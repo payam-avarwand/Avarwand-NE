@@ -2,11 +2,11 @@
 #define MyAppVersion "1.0"
 #define MyAppPublisher "Avarwand"
 #define MyAppURL "https://github.com/payam-avarwand/Avarwand-NE"
-#define MyAppExeName "Avarwand NE 1.0 - portable.exe"
-#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\Avarwand NE\installer\ANE.ico"
+#define MyAppExeName "NE 1.0 - portable.exe"
+#define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\17- Avarwand NE\Visual\rename_filled_icon_200352.ico"
 #define MyVbsLauncher "Avarwand NE_Launcher.vbs"
-#define MyAppIconName "ANE.ico"
-#define MyAppFileVersion "1.0.2.60"
+#define MyAppIconName "rename_filled_icon_200352.ico"
+#define MyAppFileVersion "1.0.5.15"
 
 [Setup]
 AppId={{Avarwand_NE.com.yahoo@Avar_Payam}
@@ -39,7 +39,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\Avarwand NE\installer\Avarwand NE 1.0 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\Avarwand NE\installer\NE 1.0 - portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib"; Flags: ignoreversion
 
 
